@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "cbluna-dev.com",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "cbluna-dev",
+            "database": "survey",
+            "username": "admin",
+            "password": "adminpass"
+        }
+    ]
+}
