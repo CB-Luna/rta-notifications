@@ -33,6 +33,14 @@ class Notifications {
       });
     });
 
+    router.options('/api', (Request req) async {
+      return Response.ok("", headers: {
+        'Access-Control-Allow-Headers': 'content-type',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'POST',
+      });
+    });
+
     return router;
   }
 }
